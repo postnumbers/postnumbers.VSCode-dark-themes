@@ -1,0 +1,198 @@
+{
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Source Code Pro, Menlo, Monaco, monospace",
+  "workbench.editor.enablePreview": false,
+  "xmlTools.enableXmlTreeViewCursorSync": true,
+  "[markdown]": {
+    "editor.minimap.autohide": "scroll",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "breadcrumbs.showNumbers": true,
+    "editor.lineNumbers": "off"
+  },
+  "git.autofetch": true,
+  "git.decorations.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.colorTheme": "Postnumbers Blackish",
+  "markdown-preview-enhanced.liveUpdate": true,
+  "markdownExtended.pdfFormat": "Letter",
+  "markdownExtended.pdfMarginBottom": "2cm",
+  "markdownExtended.pdfMarginLeft": "2cm",
+  "markdownExtended.pdfMarginRight": "2cm",
+  "markdownExtended.pdfMarginTop": "2cm",
+  "highlight.regexes": {
+
+
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "(\\=\\=)(.+)(\\=\\=)": {
+      "regexFlags": "g",
+      "filterLanguageRegex": "markdown",
+      "filterFileRegex": ".*\\.md",
+      "decorations": [
+        {
+          "backgroundColor": "#A6A35900",
+          "color": "#A6A35980"
+        },
+        {
+          "overviewRulerColor": "#A6A359",
+          "backgroundColor": "#A6A359",
+          "color": "#000000",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#A6A35900",
+          "color": "#A6A35980"
+        }
+      ]
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "criticmarkup.addition",
+        "settings": {
+          "foreground": "#99BB81"
+        }
+      },
+      {
+        "scope": "criticmarkup.deletion",
+        "settings": {
+          "foreground": "#BF616A"
+        }
+      },
+      {
+        "scope": "criticmarkup.substitution",
+        "settings": {
+          "foreground": "#BF955F"
+        }
+      },
+      {
+        "scope": "criticmarkup.comment",
+        "settings": {
+          "foreground": "#7F7D82"
+        }
+      },
+      {
+        "scope": "criticmarkup.highlight",
+        "settings": {
+          "foreground": "#A6A359"
+        }
+      }
+    ]
+  },
+  "[python]": {
+    "editor.experimental.asyncTokenization": false,
+    "editor.rulers": [80]
+  },
+  "todo.colors.dark": {
+
+  },
+  "todo.colors.projectStatistics": "#7ECECD",
+  "todo.colors.tag": "#83AAFF",
+  "python.defaultInterpreterPath": "/Users/marco/.local/bin/python3.14",
+  "claudeStats.showNotifications": true,
+  "editor.bracketPairColorization.enabled": false,
+  "markdown-checkboxes.label": true,
+  "markdown-checkboxes.labelAfter": true,
+  "markdown-color-plus.fencedCodeBlock.background.darkThemeColor": "#57667566",
+  "markdown-color-plus.horizontalRule.style.background.darkThemeColor": "#576675",
+  "markdown-color-plus.indentedCodeBlock.background.darkThemeColor": "#57667566",
+  "markdown-color-plus.inlineCode.background.darkThemeColor": "#57667566",
+  "markdown-color-plus.setextL1StyleHeader.style.text.darkThemeColor": "#98C07C",
+  "markdown-color-plus.setextL2StyleHeader.style.text.lightThemeColor": "#85A7FF",
+  "markdown-color-plus.setextL2StyleHeader.style.text.darkThemeColor": "#85A7FF",
+  "markdown-color-plus.setextL1StyleHeader.style.text.lightThemeColor": "#98C07C",
+  "markdown-color-plus.currentHeaders.background.lightThemeColor": "#85A7FF4D",
+  "markdown-color-plus.fencedCodeBlock.background.lightThemeColor": "#57667511",
+  "markdown-color-plus.horizontalRule.style.background.lightThemeColor": "#576675",
+  "markdown-color-plus.indentedCodeBlock.background.lightThemeColor": "#5766751A",
+  "markdown-color-plus.inlineCode.background.lightThemeColor": "#5766751A",
+  "markdown-color-plus.currentHeaders.background.darkThemeColor": "#85A7FF4D",
+  "markdown-color-plus.setextL2StyleHeader.style.text.bold": true,
+  "markdown-color-plus.setextL2StyleHeader.style.text.enabled": true,
+  "markdown-color-plus.setextL1StyleHeader.style.text.enabled": true,
+  "markdown-color-plus.blockquote.style.line.background.darkThemeColor": "",
+  "markdown-color-plus.blockquote.style.line.background.lightThemeColor": "",
+  "editor.minimap.enabled": false,
+  "claudeCode.preferredLocation": "panel",
+  "settingsSync.ignoredExtensions": [
+    "fabiospampinato.vscode-todo-plus"
+  ],
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+	"repository": {
+		"url": "https://github.com/postnumbers/postnumbers.VSCode-dark-themes.git",
+		"type": "git"
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "name": "postnumbers-vscode-dark-themes",
+  "displayName": "Postnumbers dark themes",
+  "description": "Black, almost black, and dark themes with somewhat muted colors",
+  "icon": "images/postnumbers_logo.png",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Postnumbers Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/postnumbers-black-color-theme.json"
+      },
+      {
+        "label": "Postnumbers Blackish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/postnumbers-blackish-color-theme.json"
+      },
+      {
+        "label": "Postnumbers Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/postnumbers-gray-color-theme.json"
+      }
+    ]
+  }
+}
