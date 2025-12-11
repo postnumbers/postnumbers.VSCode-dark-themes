@@ -190,9 +190,5 @@
     "fabiospampinato.vscode-todo-plus"
   ],
   "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-	"repository": {
-		"url": "https://github.com/postnumbers/postnumbers.VSCode-dark-themes.git",
-		"type": "git"
-	}
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }

@@ -28,5 +28,9 @@
         "path": "./themes/postnumbers-gray-color-theme.json"
       }
     ]
+  },
+	"repository": {
+		"url": "https://github.com/postnumbers/postnumbers.VSCode-dark-themes.git",
+		"type": "git"
   }
 }
